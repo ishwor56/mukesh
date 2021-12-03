@@ -1,0 +1,850 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.navbar ul li{
+    padding-right: 10px;
+    list-style: none;
+}
+
+
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+}
+
+
+.icon{
+    align-items: center !important;
+    display: flex;
+    justify-content: center;
+}
+
+.icon .fa,.fas, .fab{
+    padding-right: 20px;
+}
+
+
+
+.logo{
+    display: flex;
+    justify-content: center !important;
+    align-content: center;
+}
+
+
+.logo h1{
+    font-size: 24px;
+}
+
+
+.base{
+    align-items: center;
+}
+
+.better{
+    -webkit-box-shadow: 0 8px 6px -6px black;
+}
+
+
+.color{
+
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,37,9,0.9416141456582633) 26%, rgba(0,212,255,1) 100%);
+
+    
+}
+
+.matter{
+    width: 80% !important;
+    margin: auto !important;
+  
+}
+
+.summer h1, h2{
+    color: #fff !important;
+}
+
+.summer h2{
+    color: #fff;
+}
+
+
+
+@media(max-width: 700px){
+
+    .color{
+        width: 100% ;
+    }
+.matter{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.summer{
+    width: 100%;
+    text-align: left;
+}
+
+.summer h2, h1{
+    width: 100%;
+}
+.self img{
+    width: 100%;
+    padding-top: 20px;
+}
+
+
+.navbar ul li a{
+    display: none;
+}
+
+}
+
+
+header{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,37,9,0.9416141456582633) 26%, rgba(0,212,255,1) 100%);
+color: #fff;
+}
+
+
+
+
+/* this is for second portion */
+
+
+
+.woman{
+    width: 300px;
+    position: relative;
+}
+
+
+.woman img{
+    width: 100%;
+    height: 200px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+
+
+.portion{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+
+
+.set{
+    position: relative;
+}
+
+
+
+.woman{
+    position: relative
+}
+
+.text{
+    position: absolute;
+    top: 70px;
+    left: 34%;
+    background: #fff;
+    color: #000;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+padding: 6px 6px;
+}
+
+.text h1{
+    font-size: 22px;
+    font-weight: bold;
+
+}
+
+
+
+.one{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+
+
+.one a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.one:hover a{
+    background: red;
+    padding: 10px 19px;
+    color: #fff;
+}
+
+
+
+
+.solid{
+position: absolute;
+    display: flex;
+    justify-content: space-between;
+top: 0;
+}
+
+
+
+
+
+.divide{
+    position: relative;
+text-align: center;
+align-items: center;
+padding-bottom: 10px;
+transition: 0.5s;
+overflow: hidden;
+}
+
+
+
+.divide:hover{
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    transform: scale(1.1);
+
+}
+
+
+
+
+.divide img{
+    width: 200px;
+}
+
+.ben a{
+    text-decoration: none;
+    background: red;
+    padding: 2px 10px;
+    margin-left: 94px;
+}
+
+
+
+
+.text-1{
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+.text-1 a{
+    text-decoration: none;
+    font-size: 18px;
+    background: red;
+    width: 100%;
+    padding: 8px 18px;
+    color: #fff;
+    font-size: 13px;
+    display: inline-block;
+    width: 100%;
+}
+
+
+.guest{
+    margin-bottom: 40px;
+}
+
+
+.text-1 h3{
+    color: red;
+    font-size: 18px;
+}
+
+
+
+
+
+/* .beta{
+    gap: 10px;
+}
+ */
+
+.best{
+    margin-right: 16px;
+}
+
+.best-1{
+    margin-left: 70px;
+}
+
+
+.container-1{
+    width: 40%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+
+.grow{
+    display: flex;
+    text-align: center;
+    color: #000;
+}
+
+
+
+
+.arrival{
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+
+.arrival::after{
+    content: "";
+background: red;
+    height: 4px;
+    width: 60px;
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+   
+}
+
+
+
+.sum{
+    margin-top: 90px;
+}
+
+
+
+@media(max-width:700px){
+
+
+
+    .best-1{
+margin-left: -5px;
+    }
+
+
+
+.best{
+    width: 10%;
+}
+
+
+
+
+.solid{
+    display: none;
+}
+
+
+
+.grow{
+    width: 100%;
+    flex-direction: column;
+}
+
+
+.text-1 a{
+width: 60%;
+}
+
+
+
+}
+
+
+
+
+
+
+/* this is third section */
+
+
+
+
+
+.ghost{
+    text-align: center;
+    align-items: center;
+}
+
+
+
+.day h1{
+        font-size: 32px;
+
+}
+
+
+.day{
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    border: 3px solid #000;
+    border-radius: 100px;
+    padding: 10px 90px;
+    background: #fff;
+
+}
+
+
+.correct{
+    background: rgb(233, 216, 216);
+    width: 100%;
+    margin-top: 90px;
+    margin-bottom: 90px;
+    box-sizing: border-box;
+}
+
+
+.roww{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media(max-width: 700px){
+
+
+    .correct{
+        height: 180vh;
+        overflow: hidden;
+        width: 100%;
+    }
+
+
+
+.day{
+   width: 30%;
+        text-align: center;
+        align-items: center;
+        background: none;
+        border: none;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 20px;
+overflow: hidden;
+
+
+}
+
+
+
+.rivel{
+    padding-top: 30px;
+}
+
+
+
+.rivel h1{
+    font-size: 32px;
+}
+
+.shop .btn{
+    padding: 20px 60px;
+}
+
+
+
+.roww{
+    display: flex;
+    flex-direction: column;
+}
+
+}
+
+
+
+.shop{
+    margin-top: 60px;
+}
+
+.shop .btn{
+    padding: 13px 40px;
+}
+
+
+
+
+
+
+/* this is fifth one */
+
+
+
+
+
+.car{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+}
+
+
+
+.car i{
+    font-size: 32px;
+}
+
+.eye-1 h1{
+    font-size: 18px;
+}
+
+
+
+
+.vibe{
+    background: rgb(240, 221, 221);
+    padding: 20px;
+}
+
+
+.life{
+    margin-bottom: 90px;
+}
+
+
+
+@media(max-width: 700px){
+
+.car{
+    margin-bottom: 30px;
+}
+
+}
+
+
+
+
+
+/* this is fifth section */
+
+
+
+.gold{
+    width: 300px;
+}
+
+
+.gold img{
+    width: 340px;
+    height: 232px;
+}
+
+
+.gold{
+    position: relative;
+}
+
+
+
+.gold-1{
+    position: relative;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+.this{
+    position: absolute;
+    top: 0;
+}
+
+
+
+
+
+
+.this h1{
+    font-size: 24px;
+}
+
+
+
+
+
+
+.nothing{
+    margin-bottom: 80px;
+}
+
+
+
+.this{
+    background: #fff;
+text-align: center;
+align-items: center;
+line-height: 10px;
+    top: 30px;
+    width: 80%;
+    left: 30px;
+    padding-bottom: 18px;
+    display: none;
+    transition: 0.5s;
+
+}
+
+
+
+.gold-1:hover .this{
+display: block;
+transition: 0.5s;
+}
+
+
+
+.this a{
+    color: red;
+}
+
+
+
+
+
+
+.mango{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.row-1 input{
+    padding: 5px 16px;
+}
+
+
+
+
+.connection{
+    background: rgb(239, 245, 245);
+    padding: 14px 20px;
+    margin-bottom: 70px;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* this is sixth section */
+
+
+
+
+
+
+
+.hero{
+    height: 90vh;
+    width: 100%;
+    position: relative;
+    margin-bottom: 80px;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,37,9,0.9416141456582633) 26%, rgba(0,212,255,1) 100%);
+
+}
+
+
+
+
+.hero h1{
+
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
+
+}
+
+
+
+.user-img img{
+    width: 300px;
+}
+
+
+.slide-row{
+    display: flex;
+    width: 3200px;
+    transition: 0.5s;
+}
+
+
+.slide-col{
+    width: 800px;
+    height: 400px;
+    position: relative;
+}
+
+
+
+
+.user-img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+
+}
+
+
+.user-img img{
+    height: 100%;
+    border-radius: 10px;
+
+}
+
+.user-text{
+    background: #2d3a59;
+    width: 520px;
+    height: 270px;
+    position: absolute;
+    left: 0;
+    transform: translateY(10%);
+    border-radius: 10px;
+    color: #d3d4d6;
+    box-sizing: border-box;
+z-index: 2;
+}
+
+
+
+.user-text p{
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.user-text h3{
+    margin: 35px 0 5px;
+color: #fff;
+}
+
+
+
+.cantainer{
+    position: absolute;
+    width: 800px;
+    height: 400px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+.indicator{
+position: absolute;
+left: 50%;
+transform: translateX(-50%);
+bottom: -20%;
+
+
+
+
+}
+
+
+.buttun{
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    margin: 4px;
+    border-radius: 15px;
+    background: blue;
+
+
+}
+
+
+.active{
+    width: 45px;
+}
+
+
+.testimonial{
+    overflow: hidden;
+}
+
+
+.collinear h2{
+    color: #000;
+    color: red;
+}
+
+
+.roow{
+    display: flex;
+}
+
+.roow h3{
+    font-size: 16px;
+}
+
+.bear{
+    color: #fff;
+}
+
+
+.baby{
+    background: #000;
+}
+
+
+
+
+
+
+
+
+
+@media(max-width: 700px){
+
+.slide-row{
+    display: flex;
+    flex-direction: column;
+}
+
+.slide{
+    flex-direction: column;
+
+}
+.hero{
+    display: none;
+}
+
+.baby{
+    text-align: center;
+    align-items: center;
+}
+
+
+.roow{
+display: flex;
+text-align: center;
+align-items: center;
+justify-content: center;
+}
+
+
+}
